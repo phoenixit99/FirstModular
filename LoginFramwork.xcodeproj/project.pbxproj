@@ -13,6 +13,7 @@
 		18035E1C266539F100821F03 /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E1A266539F100821F03 /* AuthenticationServices.swift */; };
 		18035E1D266539F100821F03 /* LoginParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E1B266539F100821F03 /* LoginParameters.swift */; };
 		18035E1F266539FF00821F03 /* Login in Resources */ = {isa = PBXBuildFile; fileRef = 18035E1E266539FF00821F03 /* Login */; };
+		18035E212665409A00821F03 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E202665409A00821F03 /* LoginTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		18035E1A266539F100821F03 /* AuthenticationServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationServices.swift; path = ../../LoginModule/LoginModule/Networking/AuthenticationServices.swift; sourceTree = "<group>"; };
 		18035E1B266539F100821F03 /* LoginParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginParameters.swift; path = ../../LoginModule/LoginModule/Networking/LoginParameters.swift; sourceTree = "<group>"; };
 		18035E1E266539FF00821F03 /* Login */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Login; path = ../../LoginModule/LoginModule/Login; sourceTree = "<group>"; };
+		18035E202665409A00821F03 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				18035E1E266539FF00821F03 /* Login */,
 				18035E03266539A700821F03 /* LoginFramwork.h */,
 				18035E04266539A700821F03 /* Info.plist */,
+				18035E202665409A00821F03 /* LoginTest.swift */,
 			);
 			path = LoginFramwork;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18035E212665409A00821F03 /* LoginTest.swift in Sources */,
 				18035E1C266539F100821F03 /* AuthenticationServices.swift in Sources */,
 				18035E1D266539F100821F03 /* LoginParameters.swift in Sources */,
 			);
