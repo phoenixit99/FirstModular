@@ -11,6 +11,10 @@
 		18035E0F266539A700821F03 /* LoginFramworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E0E266539A700821F03 /* LoginFramworkTests.swift */; };
 		18035E11266539A700821F03 /* LoginFramwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 18035E03266539A700821F03 /* LoginFramwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18035E212665409A00821F03 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E202665409A00821F03 /* LoginTest.swift */; };
+		18FA840A266682BE0047AA6E /* LoginParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA8408266682BE0047AA6E /* LoginParameters.swift */; };
+		18FA840B266682BE0047AA6E /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA8409266682BE0047AA6E /* AuthenticationServices.swift */; };
+		18FA840F266683800047AA6E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA840E266683800047AA6E /* LoginViewModel.swift */; };
+		18FA8412266683820047AA6E /* LoginViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA8410266683820047AA6E /* LoginViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,11 @@
 		18035E0E266539A700821F03 /* LoginFramworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFramworkTests.swift; sourceTree = "<group>"; };
 		18035E10266539A700821F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18035E202665409A00821F03 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		18FA8408266682BE0047AA6E /* LoginParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginParameters.swift; sourceTree = "<group>"; };
+		18FA8409266682BE0047AA6E /* AuthenticationServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
+		18FA840E266683800047AA6E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		18FA8410266683820047AA6E /* LoginViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewVC.swift; sourceTree = "<group>"; };
+		18FA8411266683820047AA6E /* LoginViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,11 @@
 		18035E02266539A700821F03 /* LoginFramwork */ = {
 			isa = PBXGroup;
 			children = (
+				18FA8410266683820047AA6E /* LoginViewVC.swift */,
+				18FA8411266683820047AA6E /* LoginViewVC.xib */,
+				18FA840E266683800047AA6E /* LoginViewModel.swift */,
+				18FA8409266682BE0047AA6E /* AuthenticationServices.swift */,
+				18FA8408266682BE0047AA6E /* LoginParameters.swift */,
 				18035E03266539A700821F03 /* LoginFramwork.h */,
 				18035E04266539A700821F03 /* Info.plist */,
 				18035E202665409A00821F03 /* LoginTest.swift */,
@@ -198,7 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA840F266683800047AA6E /* LoginViewModel.swift in Sources */,
 				18035E212665409A00821F03 /* LoginTest.swift in Sources */,
+				18FA840B266682BE0047AA6E /* AuthenticationServices.swift in Sources */,
+				18FA840A266682BE0047AA6E /* LoginParameters.swift in Sources */,
+				18FA8412266683820047AA6E /* LoginViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
