@@ -8,5 +8,8 @@
 import UIKit
 
 public class LoginTest: NSObject {
-
+    
+    public func test(){
+        
+    }
 }
