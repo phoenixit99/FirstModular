@@ -7,17 +7,17 @@
 
 import UIKit
 
-protocol LoginViewModel {
+public protocol LoginViewModel {
     func doLogin(param: LoginParameters,completion: @escaping (String) -> Void)
 }
-struct LoginViewModelImpl: LoginViewModel {
+public struct LoginViewModelImpl: LoginViewModel {
     
     private var authenServices: AuthenticationServices
 
-    init(authenServices: AuthenticationServices) {
+    public init(authenServices: AuthenticationServices) {
         self.authenServices = authenServices
     }
-    func doLogin(param: LoginParameters,completion: @escaping (String) -> Void) {
+    public func doLogin(param: LoginParameters,completion: @escaping (String) -> Void) {
         self.authenServices.doLogin(param: param) { result in
             // Todo
             completion("token-abcd")
