@@ -11,6 +11,9 @@
 		18035E0F266539A700821F03 /* LoginFramworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E0E266539A700821F03 /* LoginFramworkTests.swift */; };
 		18035E11266539A700821F03 /* LoginFramwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 18035E03266539A700821F03 /* LoginFramwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18035E212665409A00821F03 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E202665409A00821F03 /* LoginTest.swift */; };
+		18FA840A266682BE0047AA6E /* LoginParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA8408266682BE0047AA6E /* LoginParameters.swift */; };
+		18FA840B266682BE0047AA6E /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA8409266682BE0047AA6E /* AuthenticationServices.swift */; };
+		18FA840D266682C40047AA6E /* Login in Resources */ = {isa = PBXBuildFile; fileRef = 18FA840C266682C40047AA6E /* Login */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,9 @@
 		18035E0E266539A700821F03 /* LoginFramworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFramworkTests.swift; sourceTree = "<group>"; };
 		18035E10266539A700821F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18035E202665409A00821F03 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		18FA8408266682BE0047AA6E /* LoginParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginParameters.swift; sourceTree = "<group>"; };
+		18FA8409266682BE0047AA6E /* AuthenticationServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
+		18FA840C266682C40047AA6E /* Login */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Login; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 		18035E02266539A700821F03 /* LoginFramwork */ = {
 			isa = PBXGroup;
 			children = (
+				18FA840C266682C40047AA6E /* Login */,
+				18FA8409266682BE0047AA6E /* AuthenticationServices.swift */,
+				18FA8408266682BE0047AA6E /* LoginParameters.swift */,
 				18035E03266539A700821F03 /* LoginFramwork.h */,
 				18035E04266539A700821F03 /* Info.plist */,
 				18035E202665409A00821F03 /* LoginTest.swift */,
@@ -181,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA840D266682C40047AA6E /* Login in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18035E212665409A00821F03 /* LoginTest.swift in Sources */,
+				18FA840B266682BE0047AA6E /* AuthenticationServices.swift in Sources */,
+				18FA840A266682BE0047AA6E /* LoginParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +358,7 @@
 		18035E15266539A700821F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -371,6 +384,7 @@
 		18035E16266539A700821F03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
