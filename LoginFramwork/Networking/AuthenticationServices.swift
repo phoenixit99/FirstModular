@@ -16,6 +16,8 @@ public protocol AuthenticationProtocol {
 }
 public struct AuthenticationServices: AuthenticationProtocol {
   
+    public init(){}
+    
     public func doLogin(param: LoginParameters, completion: @escaping (Bool) -> Void) {
         completion(true)
     }
