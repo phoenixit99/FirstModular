@@ -8,7 +8,7 @@
 import UIKit
 
 protocol LoginViewModel {
-    func doLogin(param: LoginParameters,completion: @escaping (Bool) -> Void)
+    func doLogin(param: LoginParameters,completion: @escaping (String) -> Void)
 }
 struct LoginViewModelImpl: LoginViewModel {
     
@@ -17,10 +17,10 @@ struct LoginViewModelImpl: LoginViewModel {
     init(authenServices: AuthenticationServices) {
         self.authenServices = authenServices
     }
-    func doLogin(param: LoginParameters,completion: @escaping (Bool) -> Void) {
+    func doLogin(param: LoginParameters,completion: @escaping (String) -> Void) {
         self.authenServices.doLogin(param: param) { result in
             // Todo
-            completion(true)
+            completion("token-abcd")
         }
     }
 }

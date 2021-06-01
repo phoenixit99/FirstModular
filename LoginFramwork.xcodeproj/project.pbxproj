@@ -10,7 +10,6 @@
 		18035E0A266539A700821F03 /* LoginFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18035E00266539A700821F03 /* LoginFramwork.framework */; };
 		18035E0F266539A700821F03 /* LoginFramworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E0E266539A700821F03 /* LoginFramworkTests.swift */; };
 		18035E11266539A700821F03 /* LoginFramwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 18035E03266539A700821F03 /* LoginFramwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18035E212665409A00821F03 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E202665409A00821F03 /* LoginTest.swift */; };
 		18FA840A266682BE0047AA6E /* LoginParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA8408266682BE0047AA6E /* LoginParameters.swift */; };
 		18FA840B266682BE0047AA6E /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA8409266682BE0047AA6E /* AuthenticationServices.swift */; };
 		18FA840F266683800047AA6E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA840E266683800047AA6E /* LoginViewModel.swift */; };
@@ -34,7 +33,6 @@
 		18035E09266539A700821F03 /* LoginFramworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginFramworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18035E0E266539A700821F03 /* LoginFramworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFramworkTests.swift; sourceTree = "<group>"; };
 		18035E10266539A700821F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18035E202665409A00821F03 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		18FA8408266682BE0047AA6E /* LoginParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginParameters.swift; sourceTree = "<group>"; };
 		18FA8409266682BE0047AA6E /* AuthenticationServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
 		18FA840E266683800047AA6E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -82,14 +80,10 @@
 		18035E02266539A700821F03 /* LoginFramwork */ = {
 			isa = PBXGroup;
 			children = (
-				18FA8410266683820047AA6E /* LoginViewVC.swift */,
-				18FA8411266683820047AA6E /* LoginViewVC.xib */,
-				18FA840E266683800047AA6E /* LoginViewModel.swift */,
-				18FA8409266682BE0047AA6E /* AuthenticationServices.swift */,
-				18FA8408266682BE0047AA6E /* LoginParameters.swift */,
+				18FA84D2266693AF0047AA6E /* Scenes */,
+				18FA84D0266693820047AA6E /* Networking */,
 				18035E03266539A700821F03 /* LoginFramwork.h */,
 				18035E04266539A700821F03 /* Info.plist */,
-				18035E202665409A00821F03 /* LoginTest.swift */,
 			);
 			path = LoginFramwork;
 			sourceTree = "<group>";
@@ -101,6 +95,41 @@
 				18035E10266539A700821F03 /* Info.plist */,
 			);
 			path = LoginFramworkTests;
+			sourceTree = "<group>";
+		};
+		18FA84D0266693820047AA6E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18FA84D12666938D0047AA6E /* Parametes */,
+				18FA8409266682BE0047AA6E /* AuthenticationServices.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18FA84D12666938D0047AA6E /* Parametes */ = {
+			isa = PBXGroup;
+			children = (
+				18FA8408266682BE0047AA6E /* LoginParameters.swift */,
+			);
+			path = Parametes;
+			sourceTree = "<group>";
+		};
+		18FA84D2266693AF0047AA6E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				18FA84D3266693C90047AA6E /* ViewModel */,
+				18FA8410266683820047AA6E /* LoginViewVC.swift */,
+				18FA8411266683820047AA6E /* LoginViewVC.xib */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		18FA84D3266693C90047AA6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18FA840E266683800047AA6E /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FA840F266683800047AA6E /* LoginViewModel.swift in Sources */,
-				18035E212665409A00821F03 /* LoginTest.swift in Sources */,
 				18FA840B266682BE0047AA6E /* AuthenticationServices.swift in Sources */,
 				18FA840A266682BE0047AA6E /* LoginParameters.swift in Sources */,
 				18FA8412266683820047AA6E /* LoginViewVC.swift in Sources */,
