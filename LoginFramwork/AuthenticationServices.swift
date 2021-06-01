@@ -8,19 +8,19 @@
 import UIKit
 
 
-protocol AuthenticationProtocol {
+public protocol AuthenticationProtocol {
     
     func doLogin(param: LoginParameters,completion: @escaping (Bool) -> Void)
     func getAccountDetail(userId: String)
     
 }
-struct AuthenticationServices: AuthenticationProtocol {
+public struct AuthenticationServices: AuthenticationProtocol {
   
-    func doLogin(param: LoginParameters, completion: @escaping (Bool) -> Void) {
+    public func doLogin(param: LoginParameters, completion: @escaping (Bool) -> Void) {
         completion(true)
     }
     
-    func getAccountDetail(userId: String) {
+    public func getAccountDetail(userId: String) {
         
     }
 

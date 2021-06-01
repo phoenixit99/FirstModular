@@ -7,9 +7,7 @@
 
 import UIKit
 
-struct LoginParameters: Codable {
-    
+public struct LoginParameters: Codable {
     var userName:String?
     var password: String?
-    
 }
