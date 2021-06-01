@@ -9,7 +9,7 @@ import UIKit
 
 public class LoginViewVC: UIViewController {
 
-    var viewModel:LoginViewModel!
+    public var viewModel:LoginViewModel!
     
     public override func viewDidLoad() {
         super.viewDidLoad()
