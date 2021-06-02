@@ -44,8 +44,9 @@ public class LoginViewVC: UIViewController {
         self.viewModel.doLogin(param: LoginParameters(userName: "", password: ""), completion: { result in
             print("token value = ", result)
             if let delegate = self.delegate{
-                delegate.loginCallBack(token: result)
-                self.dismiss(animated: true) {}
+                self.dismiss(animated: true) {
+                    delegate.loginCallBack(token: result)
+                }
             }
         })
     }
