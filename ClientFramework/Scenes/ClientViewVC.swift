@@ -17,6 +17,13 @@ public class ClientViewVC: UIViewController {
     public var delegate: LoginDelegate!
     var tbView:UITableView!
     
+    public init() {
+        super.init(nibName: "ClientViewVC", bundle: Bundle(for: ClientViewVC.self))
+    }
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url = "https://github.com/phoenixit99/ClientFramework.git"
 
   spec.source = { :git => "https://github.com/phoenixit99/ClientFramework.git", :tag => "v#{spec.version}", :submodules => true }
-  spec.source_files  ="ClientFramework/**/*.{h,swift}"
+  spec.source_files  ="ClientFramework/**/*.{h,swift,xib}"
   spec.requires_arc = true
   spec.platform     = :ios
   spec.ios.deployment_target = "10.0"
