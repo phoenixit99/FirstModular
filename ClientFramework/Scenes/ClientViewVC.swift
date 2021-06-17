@@ -7,14 +7,14 @@
 
 import UIKit
 
-public protocol LoginDelegate {
-    func loginCallBack(token: String)
+public protocol ClientInfoDelegate: AnyObject {
+    func clientCallBack(clientTitle: String)
 }
 
 public class ClientViewVC: UIViewController {
 
     public var viewModel:ClientViewModel!
-    public var delegate: LoginDelegate!
+    public weak var delegate: ClientInfoDelegate!
     @IBOutlet weak var tbView: UITableView!
     
     
@@ -51,7 +51,7 @@ extension ClientViewVC: UITableViewDelegate, UITableViewDataSource {
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let delegate = self.delegate{
             self.dismiss(animated: true) {
-                delegate.loginCallBack(token: "client - \(indexPath.row)")
+                delegate.clientCallBack(clientTitle: "client - \(indexPath.row)")
             }
         }
     }
