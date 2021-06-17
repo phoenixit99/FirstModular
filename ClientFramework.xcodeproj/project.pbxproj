@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18035E0A266539A700821F03 /* LoginFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18035E00266539A700821F03 /* LoginFramwork.framework */; };
+		18035E0A266539A700821F03 /* ClientFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18035E00266539A700821F03 /* ClientFramework.framework */; };
 		18035E0F266539A700821F03 /* LoginFramworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18035E0E266539A700821F03 /* LoginFramworkTests.swift */; };
 		18035E11266539A700821F03 /* LoginFramwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 18035E03266539A700821F03 /* LoginFramwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18FA840A266682BE0047AA6E /* LoginParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA8408266682BE0047AA6E /* LoginParameters.swift */; };
@@ -27,10 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18035E00266539A700821F03 /* LoginFramwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginFramwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18035E00266539A700821F03 /* ClientFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClientFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18035E03266539A700821F03 /* LoginFramwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginFramwork.h; sourceTree = "<group>"; };
 		18035E04266539A700821F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18035E09266539A700821F03 /* LoginFramworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginFramworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18035E09266539A700821F03 /* ClientFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18035E0E266539A700821F03 /* LoginFramworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFramworkTests.swift; sourceTree = "<group>"; };
 		18035E10266539A700821F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18FA8408266682BE0047AA6E /* LoginParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginParameters.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18035E0A266539A700821F03 /* LoginFramwork.framework in Frameworks */,
+				18035E0A266539A700821F03 /* ClientFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +62,8 @@
 		18035DF6266539A700821F03 = {
 			isa = PBXGroup;
 			children = (
-				18035E02266539A700821F03 /* LoginFramwork */,
-				18035E0D266539A700821F03 /* LoginFramworkTests */,
+				18035E02266539A700821F03 /* ClientFramework */,
+				18035E0D266539A700821F03 /* ClientFrameworkTests */,
 				18035E01266539A700821F03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,13 +71,13 @@
 		18035E01266539A700821F03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18035E00266539A700821F03 /* LoginFramwork.framework */,
-				18035E09266539A700821F03 /* LoginFramworkTests.xctest */,
+				18035E00266539A700821F03 /* ClientFramework.framework */,
+				18035E09266539A700821F03 /* ClientFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18035E02266539A700821F03 /* LoginFramwork */ = {
+		18035E02266539A700821F03 /* ClientFramework */ = {
 			isa = PBXGroup;
 			children = (
 				18FA84D2266693AF0047AA6E /* Scenes */,
@@ -85,16 +85,16 @@
 				18035E03266539A700821F03 /* LoginFramwork.h */,
 				18035E04266539A700821F03 /* Info.plist */,
 			);
-			path = LoginFramwork;
+			path = ClientFramework;
 			sourceTree = "<group>";
 		};
-		18035E0D266539A700821F03 /* LoginFramworkTests */ = {
+		18035E0D266539A700821F03 /* ClientFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
 				18035E0E266539A700821F03 /* LoginFramworkTests.swift */,
 				18035E10266539A700821F03 /* Info.plist */,
 			);
-			path = LoginFramworkTests;
+			path = ClientFrameworkTests;
 			sourceTree = "<group>";
 		};
 		18FA84D0266693820047AA6E /* Networking */ = {
@@ -146,9 +146,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18035DFF266539A700821F03 /* LoginFramwork */ = {
+		18035DFF266539A700821F03 /* ClientFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18035E14266539A700821F03 /* Build configuration list for PBXNativeTarget "LoginFramwork" */;
+			buildConfigurationList = 18035E14266539A700821F03 /* Build configuration list for PBXNativeTarget "ClientFramework" */;
 			buildPhases = (
 				18035DFB266539A700821F03 /* Headers */,
 				18035DFC266539A700821F03 /* Sources */,
@@ -159,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = LoginFramwork;
+			name = ClientFramework;
 			productName = LoginFramwork;
-			productReference = 18035E00266539A700821F03 /* LoginFramwork.framework */;
+			productReference = 18035E00266539A700821F03 /* ClientFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		18035E08266539A700821F03 /* LoginFramworkTests */ = {
+		18035E08266539A700821F03 /* ClientFrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18035E17266539A700821F03 /* Build configuration list for PBXNativeTarget "LoginFramworkTests" */;
+			buildConfigurationList = 18035E17266539A700821F03 /* Build configuration list for PBXNativeTarget "ClientFrameworkTests" */;
 			buildPhases = (
 				18035E05266539A700821F03 /* Sources */,
 				18035E06266539A700821F03 /* Frameworks */,
@@ -177,9 +177,9 @@
 			dependencies = (
 				18035E0C266539A700821F03 /* PBXTargetDependency */,
 			);
-			name = LoginFramworkTests;
+			name = ClientFrameworkTests;
 			productName = LoginFramworkTests;
-			productReference = 18035E09266539A700821F03 /* LoginFramworkTests.xctest */;
+			productReference = 18035E09266539A700821F03 /* ClientFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18035DFA266539A700821F03 /* Build configuration list for PBXProject "LoginFramwork" */;
+			buildConfigurationList = 18035DFA266539A700821F03 /* Build configuration list for PBXProject "ClientFramework" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -213,8 +213,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18035DFF266539A700821F03 /* LoginFramwork */,
-				18035E08266539A700821F03 /* LoginFramworkTests */,
+				18035DFF266539A700821F03 /* ClientFramework */,
+				18035E08266539A700821F03 /* ClientFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +261,7 @@
 /* Begin PBXTargetDependency section */
 		18035E0C266539A700821F03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18035DFF266539A700821F03 /* LoginFramwork */;
+			target = 18035DFF266539A700821F03 /* ClientFramework */;
 			targetProxy = 18035E0B266539A700821F03 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,7 +399,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LoginFramwork/Info.plist;
+				INFOPLIST_FILE = ClientFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -425,7 +425,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LoginFramwork/Info.plist;
+				INFOPLIST_FILE = ClientFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -479,7 +479,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18035DFA266539A700821F03 /* Build configuration list for PBXProject "LoginFramwork" */ = {
+		18035DFA266539A700821F03 /* Build configuration list for PBXProject "ClientFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18035E12266539A700821F03 /* Debug */,
@@ -488,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18035E14266539A700821F03 /* Build configuration list for PBXNativeTarget "LoginFramwork" */ = {
+		18035E14266539A700821F03 /* Build configuration list for PBXNativeTarget "ClientFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18035E15266539A700821F03 /* Debug */,
@@ -497,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18035E17266539A700821F03 /* Build configuration list for PBXNativeTarget "LoginFramworkTests" */ = {
+		18035E17266539A700821F03 /* Build configuration list for PBXNativeTarget "ClientFrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18035E18266539A700821F03 /* Debug */,
