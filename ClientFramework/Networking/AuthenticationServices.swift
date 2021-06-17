@@ -10,7 +10,7 @@ import UIKit
 
 public protocol AuthenticationProtocol {
     
-    func doLogin(param: LoginParameters,completion: @escaping (Bool) -> Void)
+    func getListClient(completion: @escaping (Bool) -> Void)
     func getAccountDetail(userId: String)
     
 }
@@ -18,7 +18,7 @@ public struct AuthenticationServices: AuthenticationProtocol {
   
     public init(){}
     
-    public func doLogin(param: LoginParameters, completion: @escaping (Bool) -> Void) {
+    public func getListClient(completion: @escaping (Bool) -> Void) {
         completion(true)
     }
     
