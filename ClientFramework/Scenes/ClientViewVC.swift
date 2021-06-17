@@ -15,7 +15,8 @@ public class ClientViewVC: UIViewController {
 
     public var viewModel:ClientViewModel!
     public var delegate: LoginDelegate!
-    var tbView:UITableView!
+    @IBOutlet weak var tbView: UITableView!
+    
     
     public init() {
         super.init(nibName: "ClientViewVC", bundle: Bundle(for: ClientViewVC.self))
@@ -27,14 +28,9 @@ public class ClientViewVC: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .gray
-        
-        tbView = UITableView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height))
         tbView.delegate = self
         tbView.dataSource = self
         tbView.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
-        tbView.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addSubview(tbView)
         
     }
 
